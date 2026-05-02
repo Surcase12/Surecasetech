@@ -70,9 +70,42 @@ body {
 .cart-link:hover {
     background-color: rgba(115, 155, 241, 0.747);
     color: white;
-    padding: 8px 16px;
-    border-radius: 20px;
     font-size: 14px;
     transform: scale(1.1);
 }
+
+.hero {
+    background: linear-gradient(135deg, #25e41ead, #456ef3);
+    color: white;
+    text-align: center;
+    padding: 100px 10px 200px;
+    margin-top: 70px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #f2f5f8;
+    color: #6c79e9;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background-color: #6c79e9;
+    color: white;
+    transform: translateY(-2px);
+}
+
 
